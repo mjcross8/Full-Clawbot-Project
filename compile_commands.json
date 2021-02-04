@@ -24,41 +24,10 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "bin/auto.c.o",
-            "src\\auto.c"
-        ],
-        "directory": "C:\\Users\\Admin\\Documents\\Full Clawbot Project",
-        "file": "src\\auto.c"
-    },
-    {
-        "arguments": [
-            "clang++",
-            "-c",
-            "-target",
-            "armv7ar-none-none-eabi",
-            "-fno-ms-extensions",
-            "-fno-ms-compatibility",
-            "-fno-delayed-template-parsing",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include-fixed",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include",
-            "-isystem./include",
-            "-iquote./include/./",
-            "-mthumb",
-            "-mcpu=cortex-m3",
-            "-mlittle-endian",
-            "-Os",
-            "-ffunction-sections",
-            "-fsigned-char",
-            "-fomit-frame-pointer",
-            "-fsingle-precision-constant",
-            "-fdiagnostics-color",
-            "-std=gnu99",
-            "-o",
-            "bin/init.c.o",
+            "C:/Users/mekhi/AppData/Local/Temp/tmp_taq626x/init.c.o",
             "src\\init.c"
         ],
-        "directory": "C:\\Users\\Admin\\Documents\\Full Clawbot Project",
+        "directory": "C:\\Users\\mekhi\\documents\\Full-Clawbot-Project",
         "file": "src\\init.c"
     },
     {
@@ -86,10 +55,41 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "bin/opcontrol.c.o",
+            "C:/Users/mekhi/AppData/Local/Temp/tmp_taq626x/auto.c.o",
+            "src\\auto.c"
+        ],
+        "directory": "C:\\Users\\mekhi\\documents\\Full-Clawbot-Project",
+        "file": "src\\auto.c"
+    },
+    {
+        "arguments": [
+            "clang++",
+            "-c",
+            "-target",
+            "armv7ar-none-none-eabi",
+            "-fno-ms-extensions",
+            "-fno-ms-compatibility",
+            "-fno-delayed-template-parsing",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include",
+            "-isystem./include",
+            "-iquote./include/./",
+            "-mthumb",
+            "-mcpu=cortex-m3",
+            "-mlittle-endian",
+            "-Os",
+            "-ffunction-sections",
+            "-fsigned-char",
+            "-fomit-frame-pointer",
+            "-fsingle-precision-constant",
+            "-fdiagnostics-color",
+            "-std=gnu99",
+            "-o",
+            "C:/Users/mekhi/AppData/Local/Temp/tmp_taq626x/opcontrol.c.o",
             "src\\opcontrol.c"
         ],
-        "directory": "C:\\Users\\Admin\\Documents\\Full Clawbot Project",
+        "directory": "C:\\Users\\mekhi\\documents\\Full-Clawbot-Project",
         "file": "src\\opcontrol.c"
     }
 ]
